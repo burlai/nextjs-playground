@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function Address() {
+export default async function Users() {
   return (
     <>
-      <h2>Address</h2>
+      <h2>Users</h2>
     </>
   );
 }

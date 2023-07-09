@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./globals.css";
 import styles from "./page.module.css";
 import { Inter } from "next/font/google";
@@ -18,9 +19,22 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <main className={styles.main}>
-          <div className={styles.description}>
-            <p>Main App Layout</p>
-            {children}
+          <div style={{ display: "block" }} className={styles.description}>
+            <div className="d-block m-top-20 m-bottom-20">
+              <Link href="/" className="link">
+                Main
+              </Link>
+              <Link href="/users" className="link">
+                Users
+              </Link>
+              <Link href="/blog" className="link">
+                Blog
+              </Link>
+              <Link href="/about" className="link">
+                About
+              </Link>
+            </div>
+            <div className="d-block">{children}</div>
           </div>
         </main>
       </body>

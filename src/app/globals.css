@@ -98,4 +98,26 @@ a {
 
 .link {
   color: blue;
+  margin-right: 25px;
+  display: inline !important;
+}
+
+.d-block {
+  display: block;
+}
+
+.m-top-20 {
+  margin-top: 20px;
+}
+
+.m-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.m-right-20 {
+  margin-right: 20px;
+}
+
+.m-left-20 {
+  margin-left: 20px;
 }
