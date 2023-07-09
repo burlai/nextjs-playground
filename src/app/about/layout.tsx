@@ -3,10 +3,5 @@ export default function AboutLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <>
-      <p>About layout</p>
-      {children}
-    </>
-  );
+  return <>{children}</>;
 }

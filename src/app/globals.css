@@ -98,4 +98,39 @@ a {
 
 .link {
   color: blue;
+  margin-right: 25px;
+  text-align: left;
+  display: block;
+}
+
+.link.link-menu {
+  display: inline !important;
+}
+
+.d-block {
+  display: block;
+}
+
+.m-top-20 {
+  margin-top: 20px;
+}
+
+.m-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.m-right-20 {
+  margin-right: 20px;
+}
+
+.m-left-20 {
+  margin-left: 20px;
+}
+
+.m-bottom-5 {
+  margin-bottom: 5px;
+}
+
+.paddings-10 {
+  padding: 10px;
 }

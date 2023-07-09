@@ -10,24 +10,21 @@ export default async function Blog() {
   );
 
   return (
-    <>
-      <h2>Blog page</h2>
+    <section>
+      <h2>Blog</h2>
+      <h3 className="m-top-20">Reddit posts</h3>
       <br />
       <div>
         {postsData?.map((post: any) => {
           return (
-            <div key={post.title}>
-              <Link className="link" href={`/blog/${post.slug}`}>
+            <div key={post.title} className="m-bottom-5">
+              <Link className="link " href={`/blog/${post.slug}`}>
                 {post.title}
               </Link>
             </div>
           );
         })}
       </div>
-      <br />
-      <Link style={{ color: "blue" }} href="/">
-        Main page
-      </Link>
-    </>
+    </section>
   );
 }
