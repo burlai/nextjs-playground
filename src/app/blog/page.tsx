@@ -17,8 +17,8 @@ export default async function Blog() {
       <div>
         {postsData?.map((post: any) => {
           return (
-            <div key={post.title}>
-              <Link className="link" href={`/blog/${post.slug}`}>
+            <div key={post.title} className="m-bottom-5">
+              <Link className="link " href={`/blog/${post.slug}`}>
                 {post.title}
               </Link>
             </div>

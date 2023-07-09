@@ -21,16 +21,16 @@ export default function RootLayout({
         <main className={styles.main}>
           <div style={{ display: "block" }} className={styles.description}>
             <div className="d-block m-top-20 m-bottom-20">
-              <Link href="/" className="link">
+              <Link href="/" className="link link-menu">
                 Main
               </Link>
-              <Link href="/users" className="link">
+              <Link href="/users" className="link link-menu">
                 Users
               </Link>
-              <Link href="/blog" className="link">
+              <Link href="/blog" className="link link-menu">
                 Blog
               </Link>
-              <Link href="/about" className="link">
+              <Link href="/about" className="link link-menu">
                 About
               </Link>
             </div>
